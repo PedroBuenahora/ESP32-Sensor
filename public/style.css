@@ -32,6 +32,8 @@ body {
 
 .content {
     padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .card {
@@ -40,9 +42,11 @@ body {
     padding: 5%;
 }
 
-.cards {
+.cards1 {
     max-width: 1000px;
     margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -79,3 +83,7 @@ input[type=text], input[type=password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+
+.wrapper{ 
+	display:flex; 
+	}
